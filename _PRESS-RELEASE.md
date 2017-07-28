@@ -1,5 +1,32 @@
-# Project Name #
 
+
+
+# Introducing SplashShare #
+
+## Find a free swimming pool near you today! ##
+
+We'll show you all the best swimming pools in your neighborhood. Who has a diving board? John on Esplanade does! Who has a hot tub? Emma on Ursuline! Save your favorite locations and leave reviews so others know to watch out for Robert's rabid pitbull in the backyard on 7th Avenue. 
+<!-- ## Problem ##
+  > Describe the problem your product solves. -->
+Another hot summer day in New Orleans without a swimming pool? SplashShare to the rescue! You know lot's of your neighbors have pools. But which ones are locked, which ones have good shade? Who leaves out the best towels?
+
+  <!-- ## Solution ##
+  > Describe how your product elegantly solves the problem. -->
+SplashShare shows you all the pool options near you along with all the important details to give you the best experience. Save your favorite pools and leave reviews with important details.
+<!-- ## Quote from You ##
+  > A quote from a spokesperson in your company. -->
+Chief Technical Parser Jacques Metevier says "SplashShare will revolution the New Orleans summer, no more kiddie pools in the backyard full of ice."
+<!-- ## How to Get Started ##
+  > Describe how easy it is to get started. -->
+Go to SplashShare.com and enter your zip code now to get started. Create an account to save all your favorite locations and leave reviews.
+<!-- ## Customer Quote ##
+  > Provide a quote from a hypothetical customer that describes how they experienced the benefit. -->
+Susie from Uptown says "I found out my elderly neighbors have a pool and went on a cruise for three months. Now the kids and I spend every afternoon there!"
+<!-- ## Closing and Call to Action ##
+  > Wrap it up and give pointers where the reader should go next. -->
+If another summer in the horse watering trough isn't gonna cut it, go to SplashShare.com and make your summer wet and wild!
+
+## WWW.SPLASHSHARE.COM ## 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
 
@@ -16,29 +43,3 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-
-## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-
-## Problem ##
-  > Describe the problem your product solves.
-
-## Solution ##
-  > Describe how your product elegantly solves the problem.
-
-## Quote from You ##
-  > A quote from a spokesperson in your company.
-
-## How to Get Started ##
-  > Describe how easy it is to get started.
-
-## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
