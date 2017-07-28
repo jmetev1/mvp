@@ -2,7 +2,10 @@
   "name": "immersion-2017-06-mvp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+   "engines": {
+    "node": "6.11.1"
+  },
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.15.3",
