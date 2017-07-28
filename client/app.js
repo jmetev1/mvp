@@ -11,6 +11,8 @@ var app = angular.module('app', []).
       this.map = '..00 Island map!';
       this.not = 'does'
       this.hawk = 'fake Eagle'
+
+
       this.phones = [
         {
           name: 'Nexus S',
@@ -23,5 +25,8 @@ var app = angular.module('app', []).
           snippet: 'The Next, Next Generation tablet.'
         }
       ];    
+      // this.database: function Database() {
+        
+      // }
     }
   });
