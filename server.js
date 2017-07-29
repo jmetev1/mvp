@@ -14,10 +14,16 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 app.listen(app.get('port'));
 
-
+let storage = [];
 app.post('/submit', (req, res) => {
-  console.log(req.body, 'req.body')
-})
+  storage.push(req.body)
+  storage.forEach(pool => console.log(pool));
+  // console.log(req.body, 'req.body')
+});
+
+app.get('/getPools', (req, res) => {
+  res.send(storage);
+});
 
 app.post('/login', (req, res) => {
   util.check(req, res, (err, result) => {
