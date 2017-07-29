@@ -3,10 +3,10 @@ const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 dotenv.load();
 
-const mongoDB = `mongodb://cain:${process.env.DBPW}@ds127783.mlab.com:27783/poolmap`;
-mongoose.connect(mongoDB);
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+// const mongoDB = `mongodb://cain:${process.env.DBPW}@ds127783.mlab.com:27783/poolmap`;
+// mongoose.connect(mongoDB);
+// const db = mongoose.connection;
+// db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 exports.check = (req, res, cb) => {
   cb(null, req.body);
