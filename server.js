@@ -14,15 +14,17 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 app.listen(app.get('port'));
 
-let storage = [];
 app.post('/submit', (req, res) => {
-  storage.push(req.body)
-  storage.forEach(pool => console.log(pool));
-  // console.log(req.body, 'req.body')
+  util.add(req, res, (some) => {
+    res.send(some);
+  });
 });
 
 app.get('/getPools', (req, res) => {
-  res.send(storage);
+  util.get(req, res, (data) => {
+    console.log(data.length, 'from call from server')
+    res.send(data);
+  });
 });
 
 app.post('/login', (req, res) => {

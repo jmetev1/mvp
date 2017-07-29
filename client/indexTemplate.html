@@ -1,11 +1,14 @@
 
-  <h1>Update 3</h1>
+  <h5>Review: {{$ctrl.prevreview}}</h5>
 
-  <!-- <form action="/login" method="POST"> -->
+    
   <input ng-model='$ctrl.username' type="text" placeholder="username" name="username">
   <input ng-model='$ctrl.review' type="text" placeholder="review" name="review">
   <button ng-click='$ctrl.submit()' >Submit</button>
   <!-- </form> -->
-  <button ng-click='$ctrl.example()' >LoadMap</button>
+  <button ng-click='$ctrl.example()' >Start</button>
 
   <button ng-click='$ctrl.show()'>ShowPools</button>
+
+  <button ng-click='$ctrl.addPool()'>AddPool</button>
+  
