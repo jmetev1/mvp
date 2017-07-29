@@ -13,11 +13,13 @@ var app = angular.module('app', [])
   .component('showMap', {
     templateUrl: './indexTemplate.html',
     controller: function MapControl(sendService, $scope) {
+      $scope.coord = '100';
       $scope.submit = function(email, password) {
 
         console.log(sendService, email, $scope.password)
       }      
-      this.wolf = 'coyotes'
+      this.wolf = 'coyote100'
+      this.coord = 100
 
     }
   });

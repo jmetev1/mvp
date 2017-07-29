@@ -4,6 +4,7 @@
 logs
 *.log
 
+storage.js 
 
 # Runtime data
 pids
