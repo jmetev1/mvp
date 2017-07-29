@@ -9,8 +9,7 @@ const app = angular.module('app', [])
   .component('showMap', {
     templateUrl: './indexTemplate.html',
     controller: function MapControl(sendService) {
-      this.prevreview = 'Not yet reviewed';
-      
+      this.prev ='garbage'
       this.loadMap = function (array) {
         console.log(array)
         array.forEach(pool => {
@@ -28,10 +27,15 @@ const app = angular.module('app', [])
         };
         let map = new google.maps.Map(document.getElementById('map'), mapOptions);
         array.forEach(pool => {
-          console.log(pool.position, 25)
+          // console.log(pool.position, 25)
           marker = new google.maps.Marker({
             position: pool.position,
             map: map,
+          });
+          google.maps.event.addListener(marker, 'click', () => {
+            console.log(this, 'this line 37')
+            this.review = pool.review;
+            this.prev = pool.username;
           });
         });
         this.addPool = () => {
